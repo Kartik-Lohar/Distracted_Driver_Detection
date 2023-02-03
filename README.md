@@ -81,7 +81,7 @@ Steps to run the WebApp:
 
 Step 1: First Download whole code and files into your PC.
 
-Step 2: Install the necessary libraies needed into your PC to run this Webpp.
+Step 2: Run requirements.txt file for installing necessary libraries for this WebApp
 
 Step 3: Change the Path in code according to your directory structure.
 
