@@ -10,6 +10,9 @@ This is a small representation of WebApp, Please ignore UI 😅😅.
 
 Dataset : Our dataset comes from kaggle.com in which there was a competition of state farm distracted driver detection in which they provided us around 1 lakh images of driver doing different activities while driving.
 
+Link of Dataset for downloading: https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data
+
+
 Our dataset is already splitted into train and test.
 
 ![train_test_count](https://user-images.githubusercontent.com/87935713/216608467-a2068ecc-3df2-46ed-b12d-1b7b49f5cbc4.png)
@@ -53,7 +56,7 @@ Step 2: While tackling with the images data there is always an recommendation to
 
 Step 3: Now comes our favourite step, to define the structure of our model and adding layers in our model. While dealing with images we can use an approach of transfer learning. Transfer learning appraoch is so much helpful when we have less number of training data.
 
-Here I am telling breif introduction of transfer learning :
+Here I am telling brief introduction of transfer learning :
 
 Transfer learning is a technique in deep learning that allows a model to be fine
 tuned for a specific task, using knowledge learned from a pre-trained model that
@@ -61,7 +64,7 @@ has been trained on a similar or related task. The goal of transfer learning is 
 leverage the knowledge learned from the pre-trained model to reduce the amount of
 data and computational resources needed to train a new model for the target task.
 
-Here is a blog on transfer learning you make checkout for deep knowledge:
+Here is a blog on transfer learning you may checkout for deep knowledge:
 https://machinelearningmastery.com/transfer-learning-for-deep-learning/
 
 Step 4: In this problem we are using pretrained model VGG16 which trained on the ImageNet dataset, which contains over 1 million labeled images from 1000 different classes.
@@ -74,6 +77,14 @@ Step 7: At last, now our model is trained we save the state of our model into mo
 
 Note: Here I have used Google Colab for accomplishing this project. So all the paths of files in the code are according to google colab paths. So before running the code please ensure all the paths.
 
+Steps to run the WebApp:
 
+Step 1: First Download whole code and files into your PC.
+
+Step 2: Install the necessary libraies needed into your PC to run this Webpp.
+
+Step 3: Change the Path in code according to your directory structure.
+
+Step 4: Run the file app.py in your terminal which provide you a link of localhost. Copy that url and paste it in your browser and click enter and see the magic.
 
 
