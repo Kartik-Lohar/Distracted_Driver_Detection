@@ -1,0 +1,5 @@
+pip install keras
+pip install flask
+pip install PIL
+pip install numpy
+pip install werkzeug
