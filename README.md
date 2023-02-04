@@ -15,7 +15,7 @@ Link of Dataset for downloading: https://www.kaggle.com/competitions/state-farm-
 
 Our dataset is already splitted into train and test.
 
-![train_test_count](https://user-images.githubusercontent.com/87935713/216608467-a2068ecc-3df2-46ed-b12d-1b7b49f5cbc4.png)
+![train_test_count](https://user-images.githubusercontent.com/87935713/216749971-12bd307b-8a05-499e-b67e-8f29dbeffe1e.png)
 
 
 From above graph we observe that our testing data is very large data as compared to training data.
@@ -44,7 +44,9 @@ c9: talking to passenger
 
 When we see our training data folder we have subfolders where each folder contains the images according to there categories.
 
-![train_category_count](https://user-images.githubusercontent.com/87935713/216607888-40768bfe-d8c2-464a-9bbe-7b99dcf3b21a.png)
+
+![train_category_count](https://user-images.githubusercontent.com/87935713/216750027-f7084241-7883-4e18-a32b-45f770f59991.png)
+
 
 Process of training our Model:
 
